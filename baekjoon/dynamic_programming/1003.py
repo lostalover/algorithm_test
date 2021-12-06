@@ -5,7 +5,7 @@ class BaekJoon1003():
         for i in range(3, 41):
             self.fibo.append(self.fibo[i-1] + self.fibo[i-2])
 
-    def solution(self, value_N: int):
+    def solution(self, value_N: int) -> None:
         if value_N == 0:
             print('1 0')
             return
