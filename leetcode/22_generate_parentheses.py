@@ -9,16 +9,16 @@ class Solution:
         self.__add_match("", n, n)
         return self.result
 
-    def __add_match(self, cur=str, l=int, r=int):
-        if l < r or l < 0 or r < 0:
+    def __add_match(self, cur=str, left=int, r=int):
+        if left < r or left < 0 or r < 0:
             return
-        if l == 0 and r == 0:
+        if left == 0 and r == 0:
             self.result.append(cur)
 
         l_cur = cur + ")"
-        self.__add_match(l_cur, l-1, r)
+        self.__add_match(l_cur, left-1, r)
         r_cur = cur + "("
-        self.__add_match(r_cur, l, r-1)
+        self.__add_match(r_cur, left, r-1)
 
 
 if __name__ == "__main__":

@@ -54,9 +54,9 @@ class Solution:
         return s
 
 
-# if __name__ == "__main__":
-#     print(Solution().myAtoi("  42"))
-#     print(Solution().myAtoi("   -42"))
-#     print(Solution().myAtoi("  4193 with words"))
-#     print(Solution().myAtoi("  words and 987"))
-#     print(Solution().myAtoi("  -91283472332"))
+if __name__ == "__main__":
+    print(Solution().myAtoi("  42"))
+    print(Solution().myAtoi("   -42"))
+    print(Solution().myAtoi("  4193 with words"))
+    print(Solution().myAtoi("  words and 987"))
+    print(Solution().myAtoi("  -91283472332"))

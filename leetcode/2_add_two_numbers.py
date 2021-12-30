@@ -22,8 +22,8 @@ class Solution:
             return int(list_node.val)
 
     def __create_ListNode(self, number: int) -> ListNode:
-        q = number//10
-        r = number%10
+        q = number // 10
+        r = number % 10
         if q == 0:
             ln = ListNode(val=r)
             return ln

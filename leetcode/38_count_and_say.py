@@ -20,6 +20,7 @@ class Solution:
             return "1"
         return self.__say(self.countAndSay(n-1))
 
+
 # print(Solution().countAndSay(1))
 # print(Solution().countAndSay(2))
 # print(Solution().countAndSay(3))

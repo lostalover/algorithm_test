@@ -22,7 +22,6 @@ class Solution:
         return max_count
 
 
-
 if __name__ == "__main__":
     # print(Solution().maxPower("leetcode"))
     # print(Solution().maxPower("abbcccddddeeeeedcba"))

@@ -1,4 +1,4 @@
-from typing import Optional, Sized
+from typing import Optional
 
 
 class ListNode:
@@ -23,7 +23,7 @@ class Solution:
             value = self.__pop_back()
             self.__push(value)
         return self.head
-    
+
     def __create_double_list_node(self):
         self.size = 1
         cur = self.head.next

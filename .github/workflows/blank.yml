@@ -35,4 +35,5 @@ jobs:
           echo flake8 start
           pip install flake8
           python3 -m flake8 ./baekjoon --max-line-length=100
+          python3 -m flake8 ./leetcode --max-line-length=100
           echo flake8 finished

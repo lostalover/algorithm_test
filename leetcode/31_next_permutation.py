@@ -30,9 +30,10 @@ class Solution:
             nums[:] = reversed(nums[:])
             return nums
 
+
 # print(Solution().nextPermutation([1, 2, 3]))
 # print(Solution().nextPermutation([3, 2, 1]))
 # print(Solution().nextPermutation([1, 3, 2]))
 # print(Solution().nextPermutation([1, 1, 5]))
 # print(Solution().nextPermutation([1,6,9,5,4,2,1]))
-print(Solution().nextPermutation([2,3,1,3,3]))
+print(Solution().nextPermutation([2, 3, 1, 3, 3]))
