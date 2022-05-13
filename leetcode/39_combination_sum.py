@@ -27,5 +27,5 @@ class Solution:
         result = [list(i) for i in result]
         return result
 
-# Solution().combinationSum(candidates = [2,3,6,7], target = 7)
-Solution().combinationSum(candidates = [2,7,6,3,5,1], target = 9)
+Solution().combinationSum(candidates = [2,3,6,7], target = 7)
+# Solution().combinationSum(candidates = [2,7,6,3,5,1], target = 9)
